@@ -8,10 +8,16 @@ def part_01():
             extra_paper = min(paper)
             total += sum(paper*2) + extra_paper
     print(total)
+    
+
+def part_02():
+    with open("input.txt", 'r') as f:
+        for ln in f.readlines():
 
 
 def solution():
     part_01()
+    part_02()
 
 
 if __name__ == "__main__":
